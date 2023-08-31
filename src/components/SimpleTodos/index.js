@@ -48,7 +48,7 @@ class SimpleTodos extends Component {
           <h1>Simple Todos</h1>
           <ul>
             {initialTodosList.map(item => (
-              <p>jjhbvkkdfl</p>
+              <Todo item={item} />
             ))}
           </ul>
         </div>
